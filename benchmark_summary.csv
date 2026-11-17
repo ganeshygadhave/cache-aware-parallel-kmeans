@@ -1,0 +1,6 @@
+solver,time_s,speedup,active_evals_pct,cache_miss_rate
+"1. Sequential Baseline",16.519,1.000,100.000,12.100
+"2. Naive OpenMP (Static + 8MB Buffers)",2.722,6.069,100.000,38.400
+"3. + Low-Memory Geometric Pruning (Static)",0.762,21.678,14.808,36.800
+"4. + Guided Dynamic Scheduling",0.737,22.414,14.808,35.900
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",0.615,26.860,14.808,3.200

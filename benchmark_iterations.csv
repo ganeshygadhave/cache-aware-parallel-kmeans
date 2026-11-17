@@ -1,0 +1,76 @@
+solver,iteration,iter_time_s,inertia,pruned_pct
+"1. Sequential Baseline",1,1.1020,16578534.8673,0.0000
+"1. Sequential Baseline",2,1.0920,12729293.8485,0.0000
+"1. Sequential Baseline",3,1.1020,12723916.5262,0.0000
+"1. Sequential Baseline",4,1.0910,12721176.7041,0.0000
+"1. Sequential Baseline",5,1.0950,12719522.4561,0.0000
+"1. Sequential Baseline",6,1.0980,12718449.6902,0.0000
+"1. Sequential Baseline",7,1.1000,12717724.2184,0.0000
+"1. Sequential Baseline",8,1.1000,12717167.1175,0.0000
+"1. Sequential Baseline",9,1.1180,12716777.3898,0.0000
+"1. Sequential Baseline",10,1.1040,12716447.1930,0.0000
+"1. Sequential Baseline",11,1.0970,12716190.9918,0.0000
+"1. Sequential Baseline",12,1.1080,12716003.6795,0.0000
+"1. Sequential Baseline",13,1.1130,12715848.6762,0.0000
+"1. Sequential Baseline",14,1.0990,12715728.5437,0.0000
+"1. Sequential Baseline",15,1.1000,12715644.7787,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",1,0.1920,16578534.8701,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",2,0.1750,12729293.9167,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",3,0.1630,12723915.8160,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",4,0.1870,12721182.9450,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",5,0.1720,12719528.5845,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",6,0.1720,12718459.3884,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",7,0.1940,12717746.7629,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",8,0.1880,12717185.1307,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",9,0.1660,12716796.7199,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",10,0.1750,12716474.2602,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",11,0.1880,12716224.6568,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",12,0.2130,12716035.4556,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",13,0.1850,12715873.6252,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",14,0.1870,12715751.1523,0.0000
+"2. Naive OpenMP (Static + 8MB Buffers)",15,0.1650,12715667.0414,0.0000
+"3. + Low-Memory Geometric Pruning (Static)",1,0.0640,13766892.1827,0.0000
+"3. + Low-Memory Geometric Pruning (Static)",2,0.1450,12771170.8814,6.5684
+"3. + Low-Memory Geometric Pruning (Static)",3,0.1380,12770650.8013,8.1014
+"3. + Low-Memory Geometric Pruning (Static)",4,0.0320,12770297.2427,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",5,0.0320,12770142.8791,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",6,0.0340,12770045.4005,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",7,0.0330,12769973.1867,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",8,0.0510,12769923.4338,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",9,0.0330,12769885.6825,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",10,0.0360,12769845.5684,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",11,0.0320,12769826.9005,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",12,0.0320,12769801.2709,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",13,0.0320,12769777.2735,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",14,0.0340,12769763.1904,98.9654
+"3. + Low-Memory Geometric Pruning (Static)",15,0.0330,12769750.3875,98.9654
+"4. + Guided Dynamic Scheduling",1,0.0620,13766892.1827,0.0000
+"4. + Guided Dynamic Scheduling",2,0.1310,12771170.8814,6.5684
+"4. + Guided Dynamic Scheduling",3,0.1340,12770650.8013,8.1014
+"4. + Guided Dynamic Scheduling",4,0.0300,12770297.2427,98.9654
+"4. + Guided Dynamic Scheduling",5,0.0300,12770142.8791,98.9654
+"4. + Guided Dynamic Scheduling",6,0.0310,12770045.4005,98.9654
+"4. + Guided Dynamic Scheduling",7,0.0310,12769973.1867,98.9654
+"4. + Guided Dynamic Scheduling",8,0.0310,12769923.4338,98.9654
+"4. + Guided Dynamic Scheduling",9,0.0340,12769885.6825,98.9654
+"4. + Guided Dynamic Scheduling",10,0.0340,12769845.5684,98.9654
+"4. + Guided Dynamic Scheduling",11,0.0550,12769826.9005,98.9654
+"4. + Guided Dynamic Scheduling",12,0.0340,12769801.2709,98.9654
+"4. + Guided Dynamic Scheduling",13,0.0360,12769777.2735,98.9654
+"4. + Guided Dynamic Scheduling",14,0.0320,12769763.1904,98.9654
+"4. + Guided Dynamic Scheduling",15,0.0320,12769750.3875,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",1,0.0490,13766892.1827,0.0000
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",2,0.1030,12771170.8814,6.5684
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",3,0.1010,12770650.8013,8.1014
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",4,0.0310,12770297.2427,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",5,0.0300,12770142.8791,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",6,0.0270,12770045.4005,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",7,0.0300,12769973.1867,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",8,0.0310,12769923.4338,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",9,0.0270,12769885.6825,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",10,0.0310,12769845.5684,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",11,0.0280,12769826.9005,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",12,0.0310,12769801.2709,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",13,0.0330,12769777.2735,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",14,0.0310,12769763.1904,98.9654
+"5. Proposed (+ 2KB L1 Tiling & SIMD)",15,0.0320,12769750.3875,98.9654
